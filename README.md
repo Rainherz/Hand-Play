@@ -10,12 +10,22 @@ Con una interfaz intuitiva y fácil de usar, "Hand Play" ofrece tres modos de ju
 ## Modos de Juego
 
 - Modo Sectores: 
-Este modo se enfoca en la precisión y coordinación de movimientos a través de la división del espacio de juego en sectores específicos. Los usuarios deben realizar movimientos precisos para alcanzar específicas dentro de cada sector.
+Este modo se enfoca en la precisión y coordinación de movimientos a través de la división del espacio de juego en sectores específicos. Los usuarios deben realizar movimientos precisos para alcanzar específicas dentro de cada sector.  
+<p align="center">
+  <img src="https://github.com/Rainherz/Hand-Play/blob/main/img/sector1.jpg" alt="Modo Sector">
+</p>
 
 - Modo Gestos: 
 En este modo, se trabaja en la ejecución de gestos específicos de la mano. Los usuarios deben realizar una variedad de gestos predefinidos,cpara completar tareas y desafíos dentro del juego.
+<p align="center">
+  <img src="https://github.com/Rainherz/Hand-Play/blob/main/img/gesto5.jpg" alt="Modo Gesto">
+</p>
+
 - Modo Mouse: 
-Este modo simula el uso de un mouse convencional, permitiendo a los usuarios controlar un cursor en la pantalla mediante movimientos de la mano. Con este modo, se enfoca en mejorar la precisión y control del movimiento fino de la mano.
+Este modo simula el uso de un mouse convencional, permitiendo a los usuarios controlar un cursor en la pantalla mediante movimientos de la mano. Con este modo, se enfoca en mejorar la precisión y control del movimiento fino de la mano.  
+<p align="center">
+  <img src="https://github.com/Rainherz/Hand-Play/blob/main/img/mouse1.jpg" alt="Modo Mouse">
+</p>
 
 
 
