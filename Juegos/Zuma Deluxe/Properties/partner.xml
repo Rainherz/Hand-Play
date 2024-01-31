@@ -1,0 +1,9 @@
+<Properties>
+	<String id="xMoreGamesLink">http://www.zylom.com</String>
+	<String id="RegisterLink">http://www.zylom.com</String>
+	<Boolean id="NoReg">true</Boolean>
+	<Boolean id="DontUpdate">true</Boolean>
+	<Integer id="MaxPlays">15</Integer>
+	<Integer id="MaxExecutions">0</Integer>
+	<Integer id="MaxTime">0</Integer>
+</Properties>

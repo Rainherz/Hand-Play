@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<Properties version="1.0" language="es" country="ES" lookandfeel="NORMAL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="">
+
+<!-- Dialog Buttons -->
+<String id="DIALOG_BUTTON_YES">SÍ</String>
+<String id="DIALOG_BUTTON_NO">NO</String>
+<String id="DIALOG_BUTTON_OK">ACEPTAR</String>
+<String id="DIALOG_BUTTON_CANCEL">CANCELAR</String>
+
+<!-- Update Dialog Stuff -->
+<String id="UPDATE_CHECK_TITLE">Actualización</String>
+<String id="UPDATE_CHECK_BODY">Espera mientras se comprueba si hay actualizaciones...</String>
+<String id="UP_TO_DATE_TITLE">Actualización</String>
+<String id="UP_TO_DATE_BODY">No hay ninguna actualización.</String>
+<String id="NEW_VERSION_TITLE">Nueva Versión</String>
+<String id="NEW_VERSION_BODY">Se ha encontrado una actualización de este juego! ¿Usted tiene gusto de visitar zylom.com para descargarlo?</String>
+
+<!-- Exception Dialog Stuff -->
+<String id="BUG_REPORT_TITLE">Excepción grave</String>
+<String id="BUG_REPORT_BODY">Se ha producido un error en el programa.&cr;Se ha creado un informe de errores y se ha enviado a Zylom.&cr;Este informe nos ayudará a encontrar la causa del problema.&cr;Para poder enviar el informe es necesario tener una conexión a Internet activa.&cr;&cr;¿Deseas enviar el error?</String>
+
+<!-- ?? temp? -->
+<String id="REGISTER_NOW">REGISTRAR AHORA</String>
+<String id="ALREADY_REGISTERED">YA ESTÁS REGISTRADO</String>
+<String id="ALREADY_REGISTERED_TEXT">Ya has registrado Zuma.</String>
+
+<!-- AdventureScreen -->
+<StringArray id="TEMPLE_NAMES">
+	<String>TEMPLO DE ZUKULKAN</String>
+	<String>QUETZAL QUATL</String>
+	<String>POPO POYOLLI</String>
+	<String>SANTUARIO SECRETO DE ZUMA</String>
+</StringArray>
+
+<StringArray id="STAGE_TEXT">
+	<String>¿TE ATREVES A ENTRAR EN LAS ANTIGUAS RUINAS?</String>
+	<String>TE ESPERA EL SEGUNDO NIVEL DEL TEMPLO.</String>
+	<String>¿BAJARÁS AL TERCER NIVEL?</String>
+
+	<String>¡HAS DESCUBIERTO UNA PUERTA OCULTA!</String>
+	<String>TE ESPERAN LOS SECRETOS DORADOS DE ZUMA.</String>
+	<String>¿TE ATREVES A ENTRAR EN LA ÚLTIMA CÁMARA?</String>
+
+	<String>OTRO TEMPLO PERDIDO...</String>
+	<String>¿PUEDES HACER QUE SE CUMPLA LA PROFECÍA?</String>
+	<String>LA ÚLTIMA FASE (?)</String>
+
+	<String>UN TEMPLO EN RUINAS SE LEVANTA DE LA TIERRA.</String>
+	<String>EL SECRETO FINAL DE ZUMA ATRAE...</String>
+	<String>ENTRAS EN LAS RUINAS POR ÚLTIMA VEZ...</String>
+</StringArray>
+
+<String id="UNCOVERSECRETTEMPLES">¡Descubre los templos secretos de Zuma!</String>
+<String id="CLICKDOORWAY">Haz clic en un umbral para seleccionar otra fase.</String>
+
+<!-- Board.cpp -->
+<String id="CONTINUEBUTTON">CONTINUAR</String>
+<String id="LEVEL">NiVeL</String>
+<String id="LVL">NVL</String>
+<String id="BONUS">BONIFICACIÓN</String>
+<String id="SURVIVAL">SUPERVIVENCIA</String>
+<String id="LASTLIFE">Última vida</String>
+<String id="PAUSED">EN PAUSA</String>
+
+<!-- CircleShootApp.cpp -->
+<String id="PLEASEOPENURL">Abre el siguiente URL en tu navegador </String>
+<String id="FORYOURCONVIENCE">. Para tu comodidad, este URL ya se ha copiado en el portapapeles.</String>
+<String id="OPENBROWSER">Abrir navegador</String>
+<String id="OK">OK</String>
+<String id="OPENINGBROWSER">Abriendo el navegador</String>
+<String id="GETREADY">¡Prepárate!</String>
+<String id="GO">IR</String>
+<String id="UPDATES">Actualizaciones</String>
+<String id="DOWANTCHECKUPDATES">¿Quieres comprobar las actualizaciones de Zuma?  Las versiones nuevas pueden incluir nuevas características y corregir errores.  Para realizar esta comprobación es necesario estar conectado a Internet.</String>
+<String id="ENTERYOURNAME">Escribe tu nombre.</String>
+<String id="ENTERYOURNAMETOCREATE">Escribe tu nombre para crear un nuevo perfil de usuario para guardar datos de puntuaciones altas y juegos en curso.</String>
+<String id="NAMECONFLICT">Conflicto de nombre.</String>
+<String id="THENAMEALREADYUSED">El nombre que has escrito ya se está utilizando.  Escribe un nombre de jugador exclusivo.</String>
+<String id="AREYOUSURE">¿Estás seguro?</String>
+<String id="THSWILLPERMANENTLY">¡Eliminarás permanentemente a '%s' de la lista de jugadores!</String>
+<String id="CONTINUEQUESTION">¿CONTINUAR?</String>
+<String id="YOURGAMEWASSAVED">El juego se guardó al salir.  Si no continúas ahora, el juego se perderá.&cr;&cr;</String>
+<String id="NEWGAME">Juego nuevo</String>
+<String id="ENTERNETXTEMPLE">Entra en el templo siguiente.</String>
+<String id="YOUARENOWGOINGENTER"> Vas a entrar en el templo siguiente.&cr;¡Prepárate!</String>
+<String id="INVALIDCODE">El código no es válido.</String>
+<String id="THELICENSECODEENTERED">El código de licencia que has especificado no es válido par ese nombre.&cr;&cr;Comprueba que el nombre y el número de registro estén escritos correctamente.</String>
+<String id="YOUALREADYREGISTERED">Ya has registrado Zuma.</String>
+<String id="ALREADYREGISTERED">Ya está registrado</String>
+<String id="QUITZUMA">¿Salir de Zuma?</String>
+<String id="ARESURETOQUIT">¿Seguro que quieres&cr;salir del juego?</String>
+<String id="LEAVEGAME">¿Salir del juego?</String>
+<String id="YOURGAMEWILLBESAVED">Al salir, se guardará la sesión del juego.  ¿Quieres continuar?</String>
+<String id="LEAVE">Salir</String>
+<String id="PLEASEREGISTER">¡REGÍSTRATE!</String>
+<String id="YOURTRIALVERSIANEXPIRED">¡La versión de prueba de Zuma ha caducado!&cr;&cr;Debes registrar tu copia &cr;para seguir jugando.</String>
+<String id="REGISTER">Regístrate</String>
+<String id="QUIT">Salir</String>
+<String id="CONTINUEBUTTON2">Continuar</String>
+
+<!-- CreateUserDialog -->
+<String id="RENAMEUSER">RENOMBRAR USUARIO</String>
+<String id="NEWUSER">Nuevo usuario</String>
+<String id="PLEASENTERYOURNAME">Escribe tu nombre.</String>
+
+<!-- CurveMgr.cpp -->
+<String id="COMBO">COMBINADO</String>
+<String id="TRIPLEGAPBONUS">BONIFICACIÓN DE HUECO TRIPLE</String>
+<String id="DOUBLEGAPBONUS">BONIFICACIÓN DE HUECO DOBLE</String>
+<String id="GAPBONUS">BONIFICACIÓN DE HUECO</String>
+<String id="CHAINBONUS">BONIFICACIÓN DE CADENA x9</String>
+<String id="SLOWDOWNBALL">Bola de FRENO</String>
+<String id="BACKWARDSBALL">Bola de RETROCESO</String>
+<String id="ACCURACYBALL">Bola de PRECISIÓN</String>
+
+<!-- HelpScreen.cpp -->
+<String id="SHOOTBALLSBYCLICKING">Dispara bolas haciendo clic en el lugar de la pantalla donde quieras que vayan.</String>
+<String id="THEGEMINTHEBACK">La gema en la espalda de la rana muestra el color de la bola siguiente.</String>
+<String id="CLICK">¡CLIC!</String>
+<String id="CLEARBALLSBY">Elimina las bolas juntando tres o más del mismo color.</String>
+<String id="LIKECOLOREDBALLS">¡Las bolas de color se atraen y pueden crear reacciones en cadena!</String>
+<String id="DONTLETTHEBALLS">¡No dejes que las bolas lleguen a la calavera!</String>
+<String id="SHOOTCOINSFOREXTRA">¡Dispara a las monedas para obtener puntos extra!</String>
+<String id="RIGHTMOUSEBUTTON">El botón derecho del ratón cambiará las bolas.</String>
+<String id="DONTSHOWTHISSCREEN">No mostrar esta pantalla al inicio.</String>
+
+<!-- LoadingScreen -->
+<String id="YOUHAVE1MINUTE">¡TE QUEDA UN MINUTO DE ESTA VERSIÓN DE PRUEBA!</String>
+<String id="YOUHAVEXMINUTES">¡TE QUEDAN %d MINUTOS DE ESTA VERSIÓN DE PRUEBA!</String>
+<String id="YOUHAVE1FREEPLAY">¡TE QUEDA UN JUEGO GRATIS!</String>
+<String id="YOUHAVEXFREEPLAYS">¡TE QUEDAN %d JUEGOS GRATIS!</String>
+<String id="CLICKHERETOPLAY">¡Haz clic aquí para jugar!</String>
+<String id="CLICKHERETOREGISER">¡Haz clic aquí para registrarte!</String>
+<String id="THANXFORREGISTERING">¡GRACIAS POR REGISTRARTE!</String>
+
+
+<!-- MainMenu-->
+<String id="IFTHISISNOTYOU">(Si ése no eres tú, haz clic aquí.)</String>
+<String id="WELCOMETOZUMA">Bienvenido a Zuma,</String>
+<String id="WELCOMETOZUMA2">Bienvenido a Zuma!</String>
+<String id="BACKTOGAME">VOLVER AL JUEGO</String>
+<String id="HELP">Ayuda</String>
+<String id="OPTIONS">Opciones</String>
+<String id="CHECKUPDATES">Comprobar actualizaciones</String>
+<String id="VISITZYLOMCOM">Visita Zylom.com para ver más juegos</String>
+<String id="TOMAINMENU">Al Menú principal</String>
+
+
+<!-- MoreGamesScreen -->
+
+<!-- OptionsDialog.cpp -->
+<String id="DONE">Hecho</String>
+<String id="MENU">MENÚ</String>
+<String id="CHECKFORUPDATES">Comprobar actualizaciones</String>
+<String id="MUSICVOLUME">Volumen (música)</String>
+<String id="SOUNDEFFECTS">Efectos de sonido</String>
+<String id="FULLSCREEN">Pantalla completa</String>
+<String id="CUSTOMCURSORS">Personalizar cursores</String>
+<String id="HARDWAREACCELERATION">Aceleración 3D por hardware</String>
+<String id="NOWINDOWEDMODE">Sin modo Con ventanas</String>
+<String id="WINDOWEDMODEISONLY">El modo Con ventanas sólo está disponible si en tu equipo se ejecuta el modo de color de 16 o 32 bits, pero no es así.</String>
+<String id="NOTSUPPORTED">No admitido.</String>
+<String id="HARDWAREACCELERATIONCANNOT">No se puede habilitar la aceleración por hardware en este ordenador.&cr;La tarjeta gráfica no cumple los requisitos mínimos del juego.</String>
+<String id="WARNING">Advertencia.</String>
+<String id="YOURVIDEOCARDMAYNOT">Puede que la tarjeta de video no admita esta característica.&cr;Si notas que el juego va más lento, desactiva la aceleración por hardware.</String>
+
+<!-- PracticeScreen -->
+<String id="PRACTICEASINGLEBOARD">PRACTICA CON UN SOLO TABLERO HASTA DOMINARLO.  ¿PUEDES CONVERTIRTE EN UN DIOS DEL SOL?</String>
+<String id="YOUMUSTFIRST">PRIMERO DEBES DESBLOQUEAR ESTE NIVEL EN EL MODO DE AVENTURA.</String>
+<String id="PLAYARANDOMLEVEL">JUEGA UN NIVEL ALEATORIO QUE HAYAS DESBLOQUEADO EN EL MODO DE AVENTURA.</String>
+<String id="PLAYTROUGHALL">¡JUEGA EN ORDEN ALEATORIO EN TODOS LOS NIVELES QUE HAYAS DESBLOQUEADO EN EL MODO DE AVENTURA!</String>
+<String id="HOWLONGCANYOU">¿CUÁNTO TIEMPO PODRÁS SOBREVIVIR A UNA CORRIENTE ININTERRUMPIDA DE LOCURA ZUMAICA?</String>
+<String id="PRACTICE">practicar</String>
+<String id="LOCKED">BLOQUEADO</String>
+
+
+<!-- RegisterDialog -->
+<String id="REGISTERZUMA">Registra Zuma</String>
+<String id="YOUMUSTOBTAINAREG">Debes obtener un código de registro en línea e introducirlo a continuación.</String>
+<String id="CLICKHERETOGETREG">HAZ CLIC AQUÍ PARA CONSEGUIR EL CÓDIGO DE REGISTRO</String>
+<String id="YOURNAME">TU NOMBRE</String>
+<String id="YOURREGISTRATIONCODE">TU CÓDIGO DE REGISTRO</String>
+
+
+<!-- StatsDialog.cpp -->
+<String id="STATS">ESTADÍSTICAS</String>
+<String id="TIP">CONSEJO</String>
+
+
+
+<StringArray id="TIPS">
+	<String>Llena el indicador naranja para terminar un nivel. No entrarán más bolas nuevas en la pantalla.</String>
+	<String>Para llenar el indicador naranja has de conseguir puntos.  A más puntos, más rápido se llena el indicador.</String>
+	<String>Haz clic con el botón derecho del ratón para cambiar la bola actual por la siguiente bola.</String>
+	<String>¡Dispara las bolas a través de un hueco para ganar una bonificación de hueco!  ¡A huecos más pequeños, mayor bonificación!</String>
+	<String>¡Crea combinados de 2 o más explosiones para ganar muchos puntos y hacer retroceder las bolas!</String>
+	<String>Cierra los huecos poniendo bolas del mismo color en ambos lados.</String>
+	<String>¡Consigue una moneda para aumentar mucho la puntuación y acabar más rápidamente el nivel!</String>
+	<String>¡Acaba un nivel rápidamente y consigue puntos de bonificación!</String>
+	<String>¡Consigue una rana extra cada 50.000 puntos!</String>
+	<String>¡Dispara bolas a través de dos o más huecos para ganar una bonificación de hueco doble!</String>
+	<String>Pulsa la barra de espacio para hacer una pausa en el juego.</String>
+	<String>Pulsa 't' para mostrar el tiempo restante para conseguir un tiempo de As.</String>
+</StringArray>
+
+<StringArray id="FORTUNES">
+	<String>Una vez que aceptas que el universo se trata de materia que se expande en nada que es algo, no es difícil combinar rayas y cuadros en la ropa.</String>
+	<String>Sólo hay una parte del universo que seguro que puedes mejorar: tú mismo.</String>
+	<String>Siempre resulta sensato mirar hacia adelante, pero es difícil mirar más allá de lo que puedes ver.</String>
+	<String>La buena madera no crece con facilidad. Cuanto más fuerte es el viento, más fuertes son los árboles.</String>
+	<String>El hecho de que nadie te entienda no te convierte en un artista.</String>
+	<String>La crítica sincera es difícil de aceptar, especialmente si viene de un pariente, un amigo, un conocido o un extraño.</String>
+	<String>Un buen plan hoy es mejor que un plan perfecto mañana.</String>
+	<String>La buena suerte suele estar con el hombre que no la tiene en cuenta en sus planes.</String>
+</StringArray>
+
+
+
+<String id="WINNINGTOTALS">TOTALES GANADORES</String>
+<String id="PRESTHESTOTOGGLE">Pulsa la tecla 's' para activar el movimiento de las estrellas.</String>
+<String id="BESTTIME">Mejor tiempo </String>
+<String id="EXTRALIFEBONUS">BONIFICACIÓN DE VIDA EXTRA</String>
+<String id="YOURTIME">TU TIEMPO</String>
+<String id="ACETIME">TIEMPO DE AS</String>
+<String id="NOTIMEBONUS">BONIFICACIÓN SIN TIEMPO</String>
+<String id="GAMEOVER">FIN DEL JUEGO</String>
+<String id="TOTALTIME">TIEMPO TOTAL</String>
+<String id="COMBOS">COMBINADOS</String>
+<String id="COINS">MONEDAS</String>
+<String id="GAPS">HUECOS</String>
+<String id="POINTS">PUNTOS</String>
+<String id="MAXCHAIN">CADENA MÁX.</String>
+<String id="MAXCOMBO">COMBINADO MÁX.</String>
+
+
+<!-- TransitionMgr.cpp -->
+<String id="STAGEX">FASE %d</String>
+<String id="COMPLETE">SUPERADO</String>
+<String id="TEXT1">¡Insignificante intruso!  ¿Supones que es muy fácil llegar al conocimiento del secreto de Zuma?  ¡No!  ¡Tus razonamientos son equivocados!  Nuestra enigmática naturaleza oculta no se puede descubrir tan rápidamente.  ¡Tres santuarios de misterio guardan el método!  ¡Jamás conseguirás pasar a través de ellos!</String>
+<String id="TEXT2">¡¡Qué es lo que veo!!  Estás vivo aún.  ¿Es posible que seas aquél del que hablaba la antigua profecía?  Fue enviada para, quizás, liberarme al fin de la persona malvada que me mantiene en cautiverio.  Pero no, es decir, eso era el típico cuento de viejas.  Si quieres vivir, ¡aléjate!</String>
+<String id="TEXT3">¡Esto yo sí que no me lo puedo creer!  ¡Verdaderamente tu poder es grande!  Pero hay un templo más, que no has encontrado, que los Zuma enterraron profundamente en la tierra.  ¡Estaba oculto y es el templo del secreto!  ¡¡Debes luchar en el último templo para sacar de su sitio la cubierta de mi cárcel!!</String>
+<String id="TEXT4_1">¡El templo final de Zuma ha caído!  ¡No es posible derrotar tu enorme poder!  Y yo puedo saborear el sabor cuya casi libertad es dulcemente dulce.  Pero el Dios del Sol sólo puede estar prisionero en esa misma casa.</String>
+<String id="TEXT4_2">¡Venimos de la estrella, volvemos a la estrella!  Es tuyo el rescate de mi estrella.</String>
+<String id="TEXT5">¡Buen trabajo, poderosa rana!  Has obtenido tu sitio legítimo entre las estrellas, al lado del antiguo soberano de los Zuma.  Por lo que respecta a mí, de ahora en adelante serás como un hermano nuestro.  Te llamaré hermano ¡y controlaremos el espacio exterior juntos!  ¡Qué buenas nuevas!  ¡Ahora bailemos!</String>
+<String id="FTEXT1">Croac.  (Siento diferir.)</String>
+<String id="FTEXT2">Croac.  (Nunca me rendiré.)</String>
+<String id="FTEXT3">Croac.  (Haré que se cumpla la profecía.)</String>
+<String id="FTEXT4">¿Croac?  (¿En el espacio?)</String>
+<String id="FTEXT5">¡Croac!  (¡Cosa más rara!)</String>
+<String id="CONGRATULATIONS">¡FELICIDADES!</String>
+<String id="RIBBIT1">Croac.</String>
+<String id="RIBBIT2">Croac?</String>
+<String id="RIBBIT3">Croac!</String>
+<String id="LIVESLEFT">%d VIDAS RESTANTES</String>
+<String id="LASTLIFE2">¡ÚLTIMA VIDA!</String>
+
+<!-- Userdialog -->
+<String id="WHOAREYOU">¿Quién eres?</String>
+<String id="RENAME">Renombrar</String>
+<String id="DELETE">Borrar</String>
+<String id="CREATEANEWUSER">(Crear un Nuevo usuario)</String>
+
+<!-- Main.cpp -->
+<String id="CURVEMAKER">Editor de curvas</String>
+<String id="LOADCURVE">Cargar curva</String>
+<String id="SAVECURVE">Guardar curva</String>
+<String id="CLEARCURVE">Borrar curva</String>
+<String id="LOADBACKGROUND">Cargar fondo</String>
+<String id="CLEARBACKGROUND">Borrar fondo</String>
+<String id="SAVESMALL">Guardar pequeño</String>
+<String id="SAVECURVE">Guardar curva</String>
+
+<!-- CircleCommon.cpp -->
+<String id="RABBIT">CONEJO</String>
+<String id="EAGLE">ÁGUILA</String>
+<String id="JAGUAR">JAGUAR</String>
+<String id="SUNGOD">DIOS DEL SOL</String>
+
+<String id="RAB">CON</String>
+<String id="EAG">ÁG</String>
+<String id="JAG">JAG</String>
+<String id="SD">SOL</String>
+</Properties>

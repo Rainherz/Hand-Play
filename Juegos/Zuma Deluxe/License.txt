@@ -1,0 +1,23 @@
+==============================================
+        CONTRATO DE LICENCIA DEL USUARIO FINAL
+==============================================
+
+LICENCIA DE PRODUCTO GENERAL.
+
+Esta copia de Zuma Deluxe (el "Software") se ha previsto únicamente para el uso personal no comercial de entretenimiento doméstico.  El usuario no puede descompilar, utilizar técnicas de ingeniería inversa o desensamblar el software, salvo lo autorizado por la ley.  PopCap Games Inc. y sus licenciatarios conservan todos los derechos, títulos e intereses en el software, que incluyen todos los derechos de propiedad intelectual incluidos y derivados.  El software, que incluye, sin limitarse a, todo el código, estructuras de datos, imágenes, sonidos, texto, pantallas, juego, trabajos derivados y todos los demás elementos del software no se puede copiar, revender, alquilar, prestar, distribuir (electrónicamente o de cualquier otra manera), usar en sistemas de pago por jugar, máquinas de monedas u otros basados en un cobro ni para cualquier otro propósito comercial. Los permisos otorgados por la presente se ofrecen temporalmente y PopCap Games Inc. puede retirarlos en cualquier momento.  Se reservan todos los derechos no expresamente otorgados.
+
+ACEPTACIÓN DE LOS TÉRMINOS DEL CONTRATO.
+
+Al adquirir y conservar este software, el usuario consiente en las condiciones y restricciones de esta licencia limitada. Al instalar, copiar o de cualquier otra manera utilizar el software o sus actualizaciones, el usuario acepta que queda obligado por los términos de este CLUF. Si no acepta los términos de este CLUF, no instale el software
+
+RENUNCIA DE GARANTÍA
+
+El software se proporciona "tal cual" sin garantía de ningún tipo. Hasta el máximo grado permitido por la ley aplicable, PopCap Games y sus proveedores renuncian a todas las garantías, expresas o implícitas, que incluyen, pero no se limitan a, garantías implícitas de comerciabilidad e idoneidad para una finalidad determinada y garantía contra infracciones, con relación al software.
+
+LIMITACIÓN DE RESPONSABILIDAD.
+
+Hasta el máximo grado permitido por la ley aplicable, en ningún caso PopCap Games o sus proveedores serán responsables por daños especiales, fortuitos, indirectos o consecuenciales de ningún tipo (que incluyen, sin limitación, daños pérdida de tiempo, beneficios e información empresariales, u otros tipos de pérdida) derivados del uso de o la imposibilidad de usar el software, o la no prestación de servicios de asistencia, incluso si PopCap Games, o uno de sus proveedores, ha sido advertido de la posibilidad de dichos daños. La responsabilidad íntegra de PopCap Games no excederá el precio pagado por el software.
+
+INFORMACIÓN SOBRE EL COPYRIGHT
+
+Zuma Deluxe  (c)2002-2003 PopCap Games.  Los demás derechos de autor y marcas comerciales son propiedad de sus respectivos propietarios.  Reservados todos los derechos.
