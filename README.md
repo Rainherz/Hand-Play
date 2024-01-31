@@ -37,6 +37,26 @@ Clona el proyecto
   git clone https://github.com/Rainherz/Hand-Play.git
 ```
 
+Cree un entorno virtual
+
+Si no tiene virtualenv, instalar la dependencia
+
+```bash
+  pip install virtualenv
+```
+
+Crear el entorno virtual
+
+```bash
+  virtualenv nombre_del_entorno
+```
+
+Activar el entorno virtual
+
+```bash
+  \nombre_del_entorno\Scripts\activate
+```
+
 Entre al directorio del proyecto
 
 ```bash

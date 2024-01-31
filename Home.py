@@ -19,20 +19,20 @@ class VentanaPrincipal(QMainWindow):
     # Método para abrir la ventana de sectores
     def OpenSectores(self):
         from VentanaSectores import VentanaSectores
-        self.hide()
+        self.close()
         ventana1 = VentanaSectores(self)
         ventana1.show()
 
     # Método para abrir la ventana de gestos
     def OpenGestos(self):
         from VentanaGestos import VentanaGestos
-        self.hide()
+        self.close()
         ventana2 = VentanaGestos(self)
         ventana2.show()
 
     # Método para abrir la ventana de control de mouse
     def OpenMouse(self):
         from VentanaMouse import VentanaMouse
-        self.hide()
+        self.close()
         ventana3 = VentanaMouse(self)
         ventana3.show()

@@ -17,7 +17,7 @@ class InstruccionesBase(QMainWindow):
 
     # Método para cerrar la ventana y emitir la señal de cierre
     def Cerrar(self):
-        self.hide()
+        self.close()
         self.cerrar_signal.emit()
 
 # Clases específicas para las instrucciones de cada juego

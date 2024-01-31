@@ -185,7 +185,7 @@ apple = pygame.image.load(os.path.join(script_dir, 'Graphics', 'apple.png')).con
 game_font = pygame.font.Font(os.path.join(script_dir, 'Font', 'PoetsenOne-Regular.ttf'), 25)
 
 SCREEN_UPDATE = pygame.USEREVENT
-pygame.time.set_timer(SCREEN_UPDATE,350)
+pygame.time.set_timer(SCREEN_UPDATE, 400)
 
 main_game = MAIN()
 

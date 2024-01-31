@@ -110,8 +110,11 @@ def process_hand_gesture(image, lmList, current_key_pressed, gesture_threshold):
     else:
         # Si la distancia es menor que el umbral, liberar todas las teclas
         cv2.putText(image, "", (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
-        for new_key in [right_pressed, up_pressed, down_pressed, left_pressed]:
-            ReleaseKey(new_key)
+        for key in current_key_pressed:
+            ReleaseKey(key)
+
+    for key in current_key_pressed:
+        ReleaseKey(key)
 
     return keyPressed, key_count, key_pressed
 
@@ -150,23 +153,16 @@ with mp_hand.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as
             keyPressed, key_count, key_pressed = process_hand_gesture(image, lmList, current_key_pressed, gesture_threshold)
 
         # Liberar las teclas si no se presionó ninguna
-        if not keyPressed and len(current_key_pressed) != 0:
+        if not keyPressed and current_key_pressed:
             for key in current_key_pressed:
                 ReleaseKey(key)
-            current_key_pressed = set()
-        elif key_count == 1 and len(current_key_pressed) == 2:
-            for key in current_key_pressed:
-                if key_pressed != key:
-                    ReleaseKey(key)
-            current_key_pressed = set()
-            for key in current_key_pressed:
-                ReleaseKey(key)
-            current_key_pressed = set()
+            current_key_pressed.clear()
 
         cv2.imshow("Frame", image)
         k = cv2.waitKey(1)
         if k == ord('q'):
             break
 
+# Liberar recursos después de salir del bucle
 video.release()
 cv2.destroyAllWindows()
