@@ -78,7 +78,7 @@ Ejecute programa
 ```
 
 
-## Authors
+## Autores
 
 - [@Rainherz](https://github.com/Rainherz)
 - [@csalhuaa](https://github.com/csalhuaa)
