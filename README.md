@@ -1,10 +1,12 @@
 
 # Hand Play
 
-"Hand Play" es un proyecto diseñado para la rehabilitación motora fina, centrado en el desarrollo de habilidades motoras específicas de la mano. Utilizando un programa desarrollado en Python, este proyecto emplea tecnología de detección de movimiento para interactuar con los movimientos de la mano del usuario.
+"Hand Play" es un proyecto diseñado para la rehabilitación motora fina, centrado en el desarrollo de habilidades motoras específicas de la mano. Utilizando un programa desarrollado en Python, este proyecto emplea tecnología de detección de movimiento para interactuar con los movimientos de la mano del usuario.  
+<p align="center">
+  <img src="https://github.com/Rainherz/Hand-Play/blob/main/img/logo.png" alt="logo">
+</p>
 
 Con una interfaz intuitiva y fácil de usar, "Hand Play" ofrece tres modos de juego distintos, cada uno diseñado para abordar diferentes aspectos de la rehabilitación motora fina.
-
 
 
 ## Modos de Juego
