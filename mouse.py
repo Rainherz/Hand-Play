@@ -37,6 +37,7 @@ with mp_hand.Hands(min_detection_confidence=0.5,
     while True:
         ret, image = video.read()
         frame_height, frame_width, _ = image.shape
+        image = cv2.flip(image, 1)
 
         lmList = []
         results = hands.process(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))

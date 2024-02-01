@@ -168,7 +168,7 @@ if __name__ == "__main__":
     while True:
         ret, image = video.read()
         frame_height, frame_width, _ = image.shape
-        # image = cv2.flip(image, 1)
+        image = cv2.flip(image, 1)
 
         draw_static_elements(image, frame_width, frame_height)
 

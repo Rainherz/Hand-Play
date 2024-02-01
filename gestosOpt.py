@@ -9,15 +9,6 @@ from procesos import nombres_procesos
 
 count_gesture_close = 0
 
-# Define una estructura para el estado del gesto
-class GestureState:
-    def __init__(self):
-        self.last_direction = ""
-        self.last_key = 0
-
-# Inicializa el estado del gesto
-gesture_state = GestureState()
-
 # Función para calcular la distancia entre dos puntos
 def calculate_distance(point1, point2):
     return math.sqrt((point1[0] - point2[0])**2 + (point1[1] - point2[1])**2)
@@ -90,18 +81,6 @@ def process_hand_gesture(image, lmList, current_key_pressed, gesture_threshold):
         else:
             new_direction, new_key = "", 0
 
-        # Verificar si hay una transición de gesto
-        if new_direction != gesture_state.last_direction:
-            print(f"Cambio de {gesture_state.last_direction} a {new_direction}")
-
-        # Actualizar el estado del gesto
-        gesture_state.last_direction = new_direction
-        gesture_state.last_key = new_key
-
-        # Realizar acciones basadas en el historial de gestos
-        if gesture_state.last_direction == "IZQUIERDA" and new_direction == "ABAJO":
-            print("Realizar acción específica de transición de IZQUIERDA a ABAJO")
-
         cv2.putText(image, new_direction, (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
         PressKey(new_key)
         current_key_pressed.add(new_key)
@@ -132,7 +111,7 @@ with mp_hand.Hands(min_detection_confidence=0.5, min_tracking_confidence=0.5) as
     while True:
         ret, image = video.read()
         frame_height, frame_width, _ = image.shape
-        # image = cv2.flip(image, 1)
+        image = cv2.flip(image, 1)
 
         # Para la lógica de la dirección
         keyPressed = False
