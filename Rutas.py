@@ -11,6 +11,6 @@ games_dictionary = {
                   os.path.join(script_directory, 'Juegos', 'snes9x', 'Roms','Bomberman4.smc')],
     'bike': os.path.join(script_directory, 'Juegos', 'Extreme Bike Trials', 'game.exe'),
     'chess': os.path.join(script_directory, 'Juegos', 'Chess Pro 3D', 'game.exe'),
-    'snake': [sys.executable, os.path.join(script_directory, 'Juegos', 'Snake-main','snake.py')],
+    'snake': os.path.join(script_directory, 'Juegos', 'Snake-main','dist', 'snake.exe'),
 }
 

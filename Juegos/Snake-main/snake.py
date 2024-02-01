@@ -194,60 +194,32 @@ cooldown_time = 0.4  # Ajusta el tiempo de cooldown según sea necesario
 last_direction_change_time = 0
 
 while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            pygame.quit()
-            sys.exit()
-        if event.type == SCREEN_UPDATE:
-            main_game.update()
+	for event in pygame.event.get():
+		if event.type == pygame.QUIT:
+			pygame.quit()
+			sys.exit()
+		if event.type == SCREEN_UPDATE:
+			main_game.update()
 
     # Utiliza la biblioteca keyboard para verificar teclas presionadas
-    current_time = pygame.time.get_ticks() / 1000  # Tiempo actual en segundos
+	current_time = pygame.time.get_ticks() / 1000  # Tiempo actual en segundos
 
     # Verifica si ha pasado suficiente tiempo desde el último cambio de dirección
-    if current_time - last_direction_change_time >= cooldown_time:
-        if keyboard.is_pressed('up') and main_game.snake.direction.y != 1:
-            main_game.snake.direction = Vector2(0, -1)
-            last_direction_change_time = current_time
-        elif keyboard.is_pressed('right') and main_game.snake.direction.x != -1:
-            main_game.snake.direction = Vector2(1, 0)
-            last_direction_change_time = current_time
-        elif keyboard.is_pressed('down') and main_game.snake.direction.y != -1:
-            main_game.snake.direction = Vector2(0, 1)
-            last_direction_change_time = current_time
-        elif keyboard.is_pressed('left') and main_game.snake.direction.x != 1:
-            main_game.snake.direction = Vector2(-1, 0)
-            last_direction_change_time = current_time
+	if current_time - last_direction_change_time >= cooldown_time:
+		if keyboard.is_pressed('up') and main_game.snake.direction.y != 1:
+			main_game.snake.direction = Vector2(0, -1)
+			last_direction_change_time = current_time
+		elif keyboard.is_pressed('right') and main_game.snake.direction.x != -1:
+			main_game.snake.direction = Vector2(1, 0)
+			last_direction_change_time = current_time
+		elif keyboard.is_pressed('down') and main_game.snake.direction.y != -1:
+			main_game.snake.direction = Vector2(0, 1)
+			last_direction_change_time = current_time
+		elif keyboard.is_pressed('left') and main_game.snake.direction.x != 1:
+			main_game.snake.direction = Vector2(-1, 0)
+			last_direction_change_time = current_time
 
-    screen.fill((175, 215, 70))
-    main_game.draw_elements()
-    pygame.display.update()
-    clock.tick(60)
-
-
-# while True:
-# 	for event in pygame.event.get():
-# 		if event.type == pygame.QUIT:
-# 			pygame.quit()
-# 			sys.exit()
-# 		if event.type == SCREEN_UPDATE:
-# 			main_game.update()
-# 		if event.type == pygame.KEYDOWN:
-# 			if event.key == pygame.K_UP:
-# 				if main_game.snake.direction.y != 1:
-# 					main_game.snake.direction = Vector2(0,-1)
-# 			if event.key == pygame.K_RIGHT:
-# 				if main_game.snake.direction.x != -1:
-# 					main_game.snake.direction = Vector2(1,0)
-# 			if event.key == pygame.K_DOWN:
-# 				if main_game.snake.direction.y != -1:
-# 					main_game.snake.direction = Vector2(0,1)
-# 			if event.key == pygame.K_LEFT:
-# 				if main_game.snake.direction.x != 1:
-# 					main_game.snake.direction = Vector2(-1,0)
-
-
-# 	screen.fill((175,215,70))
-# 	main_game.draw_elements()
-# 	pygame.display.update()
-# 	clock.tick(60)
+	screen.fill((175, 215, 70))	
+	main_game.draw_elements()
+	pygame.display.update()
+	clock.tick(60)

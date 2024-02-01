@@ -78,11 +78,11 @@ font: 75 26pt &quot;Magneto&quot;;</string>
     </widget>
     <widget class="QToolButton" name="toolButton">
      <property name="enabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>50</x>
        <y>0</y>
        <width>91</width>
        <height>81</height>
@@ -109,6 +109,9 @@ font: 75 26pt &quot;Magneto&quot;;</string>
        <width>160</width>
        <height>160</height>
       </size>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>

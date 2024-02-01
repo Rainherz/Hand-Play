@@ -60,6 +60,7 @@ def process_hand_gesture(image, lmList, current_key_pressed, gesture_threshold):
         if count_gesture_close == 25:
             # Cerrar el juego y abrir el menú principal
             cerrar_programas(nombres_procesos)
+            cerrar_programas(nombres_procesos)
             cv2.destroyAllWindows()  # Cerrar la ventana de la cámara antes de abrir una nueva
             video.release()  
             from main import iniciarVentana
