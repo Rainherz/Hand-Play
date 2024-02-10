@@ -14,11 +14,19 @@ class InstruccionesBase(QMainWindow):
         loadUi(ui_path, self)
 
         self.okey.clicked.connect(self.Cerrar)
+        self.returned.clicked.connect(self.OpenHome)
 
     # Método para cerrar la ventana y emitir la señal de cierre
     def Cerrar(self):
         self.close()
         self.cerrar_signal.emit()
+    
+    def OpenHome(self):
+        from Home import VentanaPrincipal
+        self.close()
+        ventana1 = VentanaPrincipal(self)
+        ventana1.show()
+        
 
 # Clases específicas para las instrucciones de cada juego
 class InstruccionesPacman(InstruccionesBase):
